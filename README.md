@@ -61,7 +61,7 @@ After starting the server, the backend API will be accessible at `http://localho
 
 - **GET /tasks**
   - Description: Get all tasks
-  - Headers: `{ "x-auth-token": "Bearer <token>" }`
+  - Headers: `{ "x-auth-token": " <token>" }`
 
 - **POST /tasks**
   - Description: Create a new task
