@@ -20,16 +20,18 @@ git link `https://github.com/priyan434/tests.git`
 
     
     git clone https://github.com/priyan434/tests.git
+
+
     cd tests-main
   
 
-2. Install dependencies:
+3. Install dependencies:
 
      
     npm install
     
 
-3. Set up environment variables:
+4. Set up environment variables:
 
     Create a `.env` file in the root directory and add the necessary environment variables. Refer to the [Environment Variables](#environment-variables) section for more details.
    Environment Variables
