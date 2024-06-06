@@ -10,6 +10,7 @@ This is the backend for the TaskManager application, built with Node.js and Expr
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Environment Variables](#environment-variables)
+- [Swagger API Documentation]
 
 
 ## Installation
