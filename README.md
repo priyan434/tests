@@ -30,8 +30,22 @@ This is the backend for the TaskManager application, built with Node.js and Expr
 3. Set up environment variables:
 
     Create a `.env` file in the root directory and add the necessary environment variables. Refer to the [Environment Variables](#environment-variables) section for more details.
+   Environment Variables
 
-4. Start the server:
+The following environment variables need to be set in the `.env` file:
+
+- `PORT`: The port number on which the server will run (default: 5000)
+- `MONGODB_URI`: The connection string for the MongoDB database
+- `JWT_SECRET`: Secret key for signing JWT tokens
+
+Example `.env` file:
+   ```env
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/taskmanager
+JWT_SECRET=your_secret_key
+```
+
+5. Start the server:
 
 
     nodemon index.js or node index.js
@@ -78,21 +92,9 @@ After starting the server, the backend API will be accessible at `http://localho
   - Description: Delete a task by ID
   - Headers: `{ "x-auth-token":  <token> }`
 
-Environment Variables
 
-The following environment variables need to be set in the `.env` file:
 
-- `PORT`: The port number on which the server will run (default: 5000)
-- `MONGODB_URI`: The connection string for the MongoDB database
-- `JWT_SECRET`: Secret key for signing JWT tokens
 
-Example `.env` file:
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/taskmanager
-JWT_SECRET=your_secret_key
-```
 
 
 
