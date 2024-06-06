@@ -91,8 +91,9 @@ After starting the server, the backend API will be accessible at `http://localho
 - DELETE /tasks/:id
   - Description: Delete a task by ID
   - Headers: `{ "x-auth-token":  <token> }`
-
-
+  - 
+Swagger API Documentation
+you can access the Swagger documentation at http://localhost:5000/api-docs.
 
 
 
