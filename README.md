@@ -17,8 +17,8 @@ This is the backend for the TaskManager application, built with Node.js and Expr
 1. Clone the repository:
 
     
-    git clone https://github.com/yourusername/taskmanager-backend.git
-    cd taskmanager-backend
+    git clone https://github.com/priyan434/tests.git
+    cd tests-main
   
 
 2. Install dependencies:
